@@ -16,12 +16,6 @@ import { async } from 'rxjs';
 export class AuthController {
   // constructor(private readonly authService: AuthService) {}
 
-  // @UseGuards(AuthGuard('local'))
-  // @Post('login')
-  // async login(@Body() user: LoginDto, @Req() req) {
-  //   return '11111';
-  //   return req.user;
-  // }
   @UseGuards(AuthGuard('local'))
   @Post('login')
   login(@Body() user: LoginDto, @Req() req) {
