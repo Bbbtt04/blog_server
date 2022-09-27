@@ -1,0 +1,12 @@
+DATEBASE:
+  TYPE: 'mysql'
+  HOST: 'localhost'
+  PORT: 3306
+  USERNAME: 'bit'
+  PASSWORD: 'wbt985211'
+  DATEBASE: 'bit'
+
+JWT_SECRET: 'test123'
+JWT_EXPIRES_IN: '7d'
+SECRET_KEY: 'test_key'
+USER_SECRET_KEY: 'key'
